@@ -3,7 +3,7 @@ require 'image_optim/config'
 require 'image_optim/handler'
 require 'image_optim/image_meta'
 require 'image_optim/image_path'
-require 'image_optim/railtie' if defined?(Rails)
+#require 'image_optim/railtie' if defined?(Rails)
 require 'image_optim/worker'
 require 'in_threads'
 require 'shellwords'
